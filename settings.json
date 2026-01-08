@@ -1,0 +1,64 @@
+{
+    "editor.semanticTokenColorCustomizations": {
+        "[Winter*]": {
+            "enabled": true,
+            "rules": {
+                "method": {
+                    "fontStyle": "italic bold"
+                },
+                "function": {
+                    "fontStyle": "italic bold"
+                },
+                "magicFunction": {
+                    "fontStyle": "italic"
+                },
+                "method.declaration": {
+                    "fontStyle": "bold"
+                },
+                "function.declaration": {
+                    "fontStyle": "bold"
+                },
+                "module": {
+                    "foreground": "#9a88dd",
+                    "fontStyle": "italic",
+                },
+                "class": {
+                    "foreground": "#c2a478",
+                    "fontStyle": "bold"
+                },
+                "enumMember": {
+                    "foreground": "#d29ffc",
+                    "fontStyle": "italic bold"
+                },
+                "selfParameter": {
+                    "foreground": "#AAA",
+                    "fontStyle": "italic"
+                }
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Winter*]": { // Replace with your theme name
+            "textMateRules": [
+                {
+                    "scope": "storage.type",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "constant.other",
+                    "settings": {
+                        "fontStyle": "italic bold"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.colorCustomizations": {
+        "[Winter*]": {
+            "statusBar.background":"#081120",
+            "widget.shadow": "#171717"
+        }
+    }
+}
