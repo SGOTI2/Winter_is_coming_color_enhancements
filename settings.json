@@ -9,6 +9,9 @@
                 "function": {
                     "fontStyle": "italic bold"
                 },
+                "variable": {
+                    "fontStyle": "bold"
+                },
                 "magicFunction": {
                     "fontStyle": "italic"
                 },
@@ -38,7 +41,7 @@
         }
     },
     "editor.tokenColorCustomizations": {
-        "[Winter*]": { // Replace with your theme name
+        "[Winter*]": {
             "textMateRules": [
                 {
                     "scope": "storage.type",
@@ -56,9 +59,14 @@
         }
     },
     "workbench.colorCustomizations": {
-        "[Winter*]": {
+        "[Winter is Coming (Dark Blue*]": {
             "statusBar.background":"#081120",
-            "widget.shadow": "#171717"
+            "statusBarItem.hoverBackground": "#0d1b33",
+            "widget.shadow": "#171717",
+            "menu.background": "#121d33",
+            "editorSuggestWidget.background": "#121d33",
+            "editorHoverWidget.border": "#202c46",
+            "editorHoverWidget.background": "#121d33"
         }
     }
 }
