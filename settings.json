@@ -10,6 +10,7 @@
                     "fontStyle": "italic bold"
                 },
                 "variable": {
+                    "foreground": "#dd8888",
                     "fontStyle": "bold"
                 },
                 "magicFunction": {
@@ -64,9 +65,16 @@
             "statusBarItem.hoverBackground": "#0d1b33",
             "widget.shadow": "#171717",
             "menu.background": "#121d33",
+            "editorWidget.background": "#121d33",
+            "editorWidget.border": "#202c46",
             "editorSuggestWidget.background": "#121d33",
+            "editorHoverWidget.background": "#121d33",
             "editorHoverWidget.border": "#202c46",
-            "editorHoverWidget.background": "#121d33"
+            "panel.border": "#219fd544",
+            "input.background": "#121d33",
+            "input.border": "#202c46",
+            "inputOption.activeBorder": "#202c46",
+            
         }
-    }
+    },
 }
