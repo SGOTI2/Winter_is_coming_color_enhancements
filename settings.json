@@ -63,6 +63,8 @@
         "[Winter is Coming (Dark Blue*]": {
             "statusBar.background":"#081120",
             "statusBarItem.hoverBackground": "#0d1b33",
+            "statusBar.debuggingBackground":"#245a49",
+            "statusBar.noFolderBackground": "#3d0a0a",
             "widget.shadow": "#171717",
             "menu.background": "#121d33",
             "editorWidget.background": "#121d33",
